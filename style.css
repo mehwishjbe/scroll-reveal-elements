@@ -49,3 +49,16 @@ section {
   justify-content: center;
   align-items: center;
 }
+
+.color-1{
+    background: #ff5492;
+}
+.color-2{
+    background: #e4b941;
+}
+.color-3{
+    background: #22cb6d;
+}
+.color-4{
+    background: #2b8ae9;
+}
