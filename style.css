@@ -31,3 +31,12 @@ section {
     font-weight: 600;
     margin-bottom: 60px;
 }
+
+.sample-cards .card{
+    background: #ff5492;
+    height: 100px;
+    width: 165px;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 1.1em;
+}
