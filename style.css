@@ -97,13 +97,21 @@ section {
   background-color: #e4b941;
 }
 
-.text-card h3{
+.text-card h3 {
   font-size: 1.7em;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-.text-card p{
+.text-card p {
   font-size: 1em;
   font-weight: 300;
+}
+
+@media screen and (max-width: 1010px) {
+  .home h1 {
+    font-size: 3.8em;
+    font-weight: 600;
+    margin-bottom: 60px;
+  }
 }
