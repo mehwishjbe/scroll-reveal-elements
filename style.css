@@ -92,3 +92,7 @@ section {
   padding: 25px 15px;
   border-radius: 5px;
 }
+
+.text-card.color-1 {
+  background-color: #e4b941;
+}
