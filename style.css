@@ -130,3 +130,9 @@ section {
     row-gap: 1.7em;
   }
 }
+
+@media screen and (max-width: 690px) {
+  .main-container .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
