@@ -62,3 +62,10 @@ section {
 .card.color-4 {
   background: #2b8ae9;
 }
+
+/* ================== SECTION 2 ======================== */
+
+.main-container {
+  display: grid;
+  place-items: center;
+}
