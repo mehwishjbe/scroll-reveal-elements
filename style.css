@@ -75,3 +75,10 @@ section {
   font-weight: 700;
   margin-bottom: 90px;
 }
+
+.main-container .cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1.7em;
+  column-gap: 1.5em;
+}
