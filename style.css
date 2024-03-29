@@ -70,15 +70,25 @@ section {
   place-items: center;
 }
 
-.main-container h2{
+.main-container h2 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 90px;
 }
 
-.main-container .cards{
+.main-container .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 1.7em;
   column-gap: 1.5em;
+}
+
+.cards .text-card {
+  width: 300px;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px 15px;
+  border-radius: 5px;
 }
