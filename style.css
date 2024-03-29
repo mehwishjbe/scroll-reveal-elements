@@ -153,4 +153,10 @@ section {
   .main-container h2 {
     font-size: 2em;
   }
+
+  .cards .text-card{
+    width: 100%;
+    height: fit-content;
+    padding: 50px 15px;
+  }
 }
