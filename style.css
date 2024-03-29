@@ -149,4 +149,8 @@ section {
   .sample-cards {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .main-container h2 {
+    font-size: 2em;
+  }
 }
