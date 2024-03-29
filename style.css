@@ -96,3 +96,9 @@ section {
 .text-card.color-1 {
   background-color: #e4b941;
 }
+
+.text-card h3{
+  font-size: 1.7em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
