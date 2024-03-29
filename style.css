@@ -114,4 +114,8 @@ section {
     font-weight: 600;
     margin-bottom: 60px;
   }
+
+  .main-container .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
