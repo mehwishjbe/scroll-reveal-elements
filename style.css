@@ -101,6 +101,10 @@ section {
   background-color: #22cb6d;
 }
 
+.text-card.color-4 {
+  background-color: #2b8ae9;
+}
+
 .text-card h3 {
   font-size: 1.7em;
   font-weight: 600;
