@@ -29,21 +29,21 @@ sections.forEach((section) => {
       }
     });
   });
-});
 
-window.addEventListener("load", () => {
-  let reveals = section.querySelectorAll(".reveal");
+  window.addEventListener("load", () => {
+    let reveals = section.querySelectorAll(".reveal");
 
-  reveals.forEach((reveal, index) => {
-    let windowHeight = window.innerHeight;
-    let sectionRectTop = section.getBoundingClientRect().top;
+    reveals.forEach((reveal, index) => {
+      let windowHeight = window.innerHeight;
+      let sectionRectTop = section.getBoundingClientRect().top;
 
-    if (sectionRectTop < windowHeight) {
+      if (sectionRectTop < windowHeight) {
         const delay = 600;
-  
+
         setTimeout(() => {
           reveal.classList.add("active");
         }, index * delay);
       }
+    });
   });
 });
