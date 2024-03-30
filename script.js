@@ -11,8 +11,12 @@ sections.forEach((section) => {
     //console.log("Window Height: " + windowHeight);
     //console.log("Section RectTop: " + sectionRectTop);
 
-    if(sectionRectTop < windowHeight){
-        section.classList.add("active");
+    if (sectionRectTop < windowHeight) {
+      section.classList.add("active");
     }
   }
+
+  window.addEventListener("scroll", () => {
+    let reveals = section.querySelectorAll(".reveal");
+  });
 });
