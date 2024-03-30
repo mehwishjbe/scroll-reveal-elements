@@ -7,5 +7,8 @@ sections.forEach((section) => {
   function eventListerner() {
     let windowHeight = window.innerHeight;
     let sectionRectTop = section.getBoundingClientRect().top;
+
+    //console.log("Window Height: " + windowHeight);
+    //console.log("Section RectTop: " + sectionRectTop);
   }
 });
