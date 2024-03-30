@@ -36,8 +36,9 @@ sections.forEach((section) => {
     reveals.forEach((reveal, index) => {
         let windowHeight = window.innerHeight;
         let sectionRectTop = section.getBoundingClientRect().top;
+        let revealPoint = -250;
   
-        if (sectionRectTop < windowHeight) {
+        if (sectionRectTop < windowHeight - revealPoint) {
           const delay = 600;
   
           setTimeout(() => {
