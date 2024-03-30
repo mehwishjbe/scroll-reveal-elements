@@ -18,5 +18,11 @@ sections.forEach((section) => {
 
   window.addEventListener("scroll", () => {
     let reveals = section.querySelectorAll(".reveal");
+
+    reveals.forEach((reveal, index) => {
+      if (section.classList.contains("active")) {
+        const delay = 600;
+      }
+    });
   });
 });
