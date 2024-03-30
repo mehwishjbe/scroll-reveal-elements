@@ -22,6 +22,10 @@ sections.forEach((section) => {
     reveals.forEach((reveal, index) => {
       if (section.classList.contains("active")) {
         const delay = 600;
+
+        setTimeout(() => {
+          reveal.classList.add("active");
+        }, index * delay);
       }
     });
   });
