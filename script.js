@@ -38,6 +38,12 @@ window.addEventListener("load", () => {
     let windowHeight = window.innerHeight;
     let sectionRectTop = section.getBoundingClientRect().top;
 
-    
+    if (sectionRectTop < windowHeight) {
+        const delay = 600;
+  
+        setTimeout(() => {
+          reveal.classList.add("active");
+        }, index * delay);
+      }
   });
 });
