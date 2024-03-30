@@ -10,5 +10,9 @@ sections.forEach((section) => {
 
     //console.log("Window Height: " + windowHeight);
     //console.log("Section RectTop: " + sectionRectTop);
+
+    if(sectionRectTop < windowHeight){
+        section.classList.add("active");
+    }
   }
 });
