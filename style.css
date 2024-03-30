@@ -188,3 +188,8 @@ section {
   transition: 2s ease;
   transition-property: transform, opacity;
 }
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
