@@ -30,6 +30,23 @@ sections.forEach((section) => {
     });
   });
 
+  window.addEventListener("scroll", () => {
+    let reveals = section.querySelectorAll(".reveal");
+
+    reveals.forEach((reveal, index) => {
+        let windowHeight = window.innerHeight;
+        let sectionRectTop = section.getBoundingClientRect().top;
+  
+        if (sectionRectTop < windowHeight) {
+          const delay = 600;
+  
+          setTimeout(() => {
+            reveal.classList.add("active");
+          }, index * delay);
+        }
+      });
+  });
+
   window.addEventListener("load", () => {
     let reveals = section.querySelectorAll(".reveal");
 
