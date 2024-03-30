@@ -30,3 +30,9 @@ sections.forEach((section) => {
     });
   });
 });
+
+window.addEventListener("load", () => {
+  let reveals = section.querySelectorAll(".reveal");
+
+  
+});
