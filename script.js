@@ -34,5 +34,10 @@ sections.forEach((section) => {
 window.addEventListener("load", () => {
   let reveals = section.querySelectorAll(".reveal");
 
-  
+  reveals.forEach((reveal, index) => {
+    let windowHeight = window.innerHeight;
+    let sectionRectTop = section.getBoundingClientRect().top;
+
+    
+  });
 });
