@@ -97,6 +97,10 @@ section {
   background-color: #e4b941;
 }
 
+.text-card.color-3 {
+  background-color: #22cb6d;
+}
+
 .text-card h3 {
   font-size: 1.7em;
   font-weight: 600;
